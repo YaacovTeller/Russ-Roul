@@ -1,0 +1,7 @@
+C:\Users\Rivka and Yaacov\source\repos\C#\RussianRoulette\RussianRoulette\bin\Debug\RussianRoulette.exe.config
+C:\Users\Rivka and Yaacov\source\repos\C#\RussianRoulette\RussianRoulette\bin\Debug\RussianRoulette.exe
+C:\Users\Rivka and Yaacov\source\repos\C#\RussianRoulette\RussianRoulette\bin\Debug\RussianRoulette.pdb
+C:\Users\Rivka and Yaacov\source\repos\C#\RussianRoulette\RussianRoulette\obj\Debug\RussianRoulette.csprojAssemblyReference.cache
+C:\Users\Rivka and Yaacov\source\repos\C#\RussianRoulette\RussianRoulette\obj\Debug\RussianRoulette.csproj.CoreCompileInputs.cache
+C:\Users\Rivka and Yaacov\source\repos\C#\RussianRoulette\RussianRoulette\obj\Debug\RussianRoulette.exe
+C:\Users\Rivka and Yaacov\source\repos\C#\RussianRoulette\RussianRoulette\obj\Debug\RussianRoulette.pdb
