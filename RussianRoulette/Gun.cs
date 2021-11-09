@@ -26,29 +26,31 @@ namespace RussianRoulette
                 hammer = true;
                 cycleBarrel();
                 Update.userMessage = "You pulled back the hammer";
-                Update.updater();
             }
             else
             {
                 Update.userMessage = "Your gun is already cocked";
-                Update.updater();
             }
+                Update.updater();
         }
         public static void randGen()
         {
             Random rand = new Random();
             bullet = rand.Next(1, 7);
         }
+        public static void chamberOneRound(){
+            do { randGen(); }
+            while (gunBarell[bullet - 1] == 1);
+            gunBarell[bullet - 1] = 1;
+            roundsLoaded++;
+        }
         public static void chamberRound()
         {
             switch (roundsLoaded)
             {
                 case 0:
-                    do { randGen(); }
-                    while (gunBarell[bullet - 1] == 1);
-                    gunBarell[bullet - 1] = 1;
+                    chamberOneRound();
                     loaded = true;
-                    roundsLoaded++;
                     Update.userMessage = "Round chambered";
                     break;
                 case 1:
@@ -60,10 +62,7 @@ namespace RussianRoulette
                     }
                     else
                     {
-                        do { randGen(); }
-                        while (gunBarell[bullet - 1] == 1);
-                        gunBarell[bullet - 1] = 1;
-                        roundsLoaded++;
+                        chamberOneRound();
                         Update.userMessage = "It's your funeral";
                     }
                     break;
@@ -76,20 +75,17 @@ namespace RussianRoulette
                     } 
                     else
                     {
-                        do { randGen(); }
-                        while (gunBarell[bullet - 1] == 1);
-                        gunBarell[bullet - 1] = 1;
-                        roundsLoaded++;
+                        chamberOneRound();
                         Update.userMessage = "This wont end well, you know";
                     }
                     break;
                 case 3:
                 case 4:
+                        chamberOneRound();
+                    Update.userMessage = "You do know how this game works, right?";
+                    break;
                 case 5:
-                    do { randGen(); }
-                    while (gunBarell[bullet - 1] == 1);
-                    gunBarell[bullet - 1] = 1;
-                    roundsLoaded++;
+                        chamberOneRound();
                     Update.userMessage = "A fully loaded gun kind of removes the risk factor here";
                     break;
                 case 6:
@@ -160,8 +156,15 @@ namespace RussianRoulette
             if (gunToHead == false)
             {
                 gunToHead = true;
+                Update.userMessage = "Watch where you point that thing";
+                if (roundsLoaded == gunBarell.Length){
+                    Update.userMessage = "This is an exceedingly stupid idea";
+                }
             }
-            else gunToHead = false;
+            else {
+                gunToHead = false;
+                Update.userMessage = "Probably wiser, all things considered";
+            }
         }
     }
 }

@@ -33,7 +33,7 @@ namespace RussianRoulette
             Console.WriteLine("Gun {0}", loadedStatus);
             string hammerStatus = Gun.hammer ? "back" : "down";
             Console.WriteLine("Hammer {0}", hammerStatus);
-            string pointStatus = Gun.gunToHead ? "Watch where you point that thing" : "Safe";
+            string pointStatus = Gun.gunToHead ? "Dangerous" : "Safe";
             Console.WriteLine(pointStatus);
             Console.WriteLine("Chamber {0}", Gun.chamber);
             Console.WriteLine();

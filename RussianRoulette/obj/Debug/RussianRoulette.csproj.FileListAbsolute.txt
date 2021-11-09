@@ -5,3 +5,9 @@ C:\Users\Rivka and Yaacov\source\repos\C#\RussianRoulette\RussianRoulette\obj\De
 C:\Users\Rivka and Yaacov\source\repos\C#\RussianRoulette\RussianRoulette\obj\Debug\RussianRoulette.csproj.CoreCompileInputs.cache
 C:\Users\Rivka and Yaacov\source\repos\C#\RussianRoulette\RussianRoulette\obj\Debug\RussianRoulette.exe
 C:\Users\Rivka and Yaacov\source\repos\C#\RussianRoulette\RussianRoulette\obj\Debug\RussianRoulette.pdb
+C:\Users\rytel\Desktop\Code stuff\JB_projects\Russ-Roul-master\RussianRoulette\bin\Debug\RussianRoulette.exe.config
+C:\Users\rytel\Desktop\Code stuff\JB_projects\Russ-Roul-master\RussianRoulette\bin\Debug\RussianRoulette.exe
+C:\Users\rytel\Desktop\Code stuff\JB_projects\Russ-Roul-master\RussianRoulette\bin\Debug\RussianRoulette.pdb
+C:\Users\rytel\Desktop\Code stuff\JB_projects\Russ-Roul-master\RussianRoulette\obj\Debug\RussianRoulette.csprojResolveAssemblyReference.cache
+C:\Users\rytel\Desktop\Code stuff\JB_projects\Russ-Roul-master\RussianRoulette\obj\Debug\RussianRoulette.exe
+C:\Users\rytel\Desktop\Code stuff\JB_projects\Russ-Roul-master\RussianRoulette\obj\Debug\RussianRoulette.pdb
