@@ -11,3 +11,9 @@ C:\Users\rytel\Desktop\Code stuff\JB_projects\Russ-Roul-master\RussianRoulette\b
 C:\Users\rytel\Desktop\Code stuff\JB_projects\Russ-Roul-master\RussianRoulette\obj\Debug\RussianRoulette.csprojResolveAssemblyReference.cache
 C:\Users\rytel\Desktop\Code stuff\JB_projects\Russ-Roul-master\RussianRoulette\obj\Debug\RussianRoulette.exe
 C:\Users\rytel\Desktop\Code stuff\JB_projects\Russ-Roul-master\RussianRoulette\obj\Debug\RussianRoulette.pdb
+C:\Users\rytel\Desktop\Code stuff\JB_projects\Russian Roulette\RussianRoulette\bin\Debug\RussianRoulette.exe.config
+C:\Users\rytel\Desktop\Code stuff\JB_projects\Russian Roulette\RussianRoulette\bin\Debug\RussianRoulette.exe
+C:\Users\rytel\Desktop\Code stuff\JB_projects\Russian Roulette\RussianRoulette\bin\Debug\RussianRoulette.pdb
+C:\Users\rytel\Desktop\Code stuff\JB_projects\Russian Roulette\RussianRoulette\obj\Debug\RussianRoulette.csprojResolveAssemblyReference.cache
+C:\Users\rytel\Desktop\Code stuff\JB_projects\Russian Roulette\RussianRoulette\obj\Debug\RussianRoulette.exe
+C:\Users\rytel\Desktop\Code stuff\JB_projects\Russian Roulette\RussianRoulette\obj\Debug\RussianRoulette.pdb

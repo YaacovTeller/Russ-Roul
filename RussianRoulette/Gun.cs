@@ -80,9 +80,12 @@ namespace RussianRoulette
                     }
                     break;
                 case 3:
-                case 4:
                         chamberOneRound();
                     Update.userMessage = "You do know how this game works, right?";
+                    break;
+                case 4:
+                        chamberOneRound();
+                    Update.userMessage = "I thought not";
                     break;
                 case 5:
                         chamberOneRound();
@@ -96,9 +99,8 @@ namespace RussianRoulette
         }
         public static void emptyBarrel()
         {  
-            if (loaded == true)
+            if (roundsLoaded > 0)
             {
-                loaded = false;
                 for (int i = 0; i < 6; i++)
                 {
                     gunBarell[i] = 0;
@@ -108,6 +110,7 @@ namespace RussianRoulette
                 {
                     Update.userMessage += "*ting* ";
                 }
+                loaded = false;
                 roundsLoaded = 0;
             }
             else Update.userMessage = "your gun is empty, fool";
